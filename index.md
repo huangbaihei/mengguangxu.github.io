@@ -1,1 +1,33 @@
-1
+！DOCTYPE html>
+<html>
+<head>
+    <meta name =“viewport”content =“width = device-width，initial-scale = 1”>
+    <meta charset =“UTF-8”>
+    九宫格</标题>
+    <style type =“text / css”>
+        .box1 {width：100 vw;
+            身高：100体积; }
+        。框
+        {border-radius：10％;
+            宽度：30％;
+            高度：30％;
+            保证金：3％0 3％2％;
+            向左飘浮 ;
+            背景颜色：黄色;
+        }
+    </ style>
+</ head>
+<body>
+<div class =“box1”>
+    <div class =“box”> </ div>
+    <div class =“box”> </ div>
+    <div class =“box”> </ div>
+    <div class =“box”> </ div>
+    <div class =“box”> </ div>
+    <div class =“box”> </ div>
+    <div class =“box”> </ div>
+    <div class =“box”> </ div>
+    <div class =“box”> </ div>
+</ div>
+</ body>
+</ html>
