@@ -21,15 +21,15 @@ h2 {
 p {
     line-height:3rem;
     font-size: 1.5rem;
-    padding: 0 1rem;
+    padding: 0 2rem 0 2rem;
     text-align: center;
 }
 .footer{padding: 3.5rem 0 0 0 ;
     text-align: center;
 }
 .img2{float: left;
-    margin: 13rem 0 5rem 10rem;
+    margin: 13rem 0 5rem 2rem;
 }
 .img3{
     float: right;
-    margin: 13rem 10rem 5rem 0 ;  }
+    margin: 13rem 2rem 5rem 0 ;  }
