@@ -13,7 +13,7 @@ body {
 .img1{
     padding: .5rem 0 0 0 ;
     position: relative;  }
-h2 {
+.header {
     line-height: 3rem;
     text-align: center;
     padding:2rem;
@@ -24,12 +24,16 @@ p {
     padding: 0 5rem 0 5rem;
     text-align: left;
 }
-.footer{padding: 3.5rem 0 0 0 ;
+.footer{margin: 28% 0 0 0;
+    width: auto;
     text-align: center;
 }
 .img2{float: left;
-    margin: 13rem 0 5rem 1rem;
+    margin: 13rem -5rem 5rem 1rem;
+    display: block;
 }
 .img3{
     float: right;
-    margin: 13rem 1rem 5rem 0 ;  }
+    margin: 13rem 1rem 5rem -5rem ;
+    display: block;
+  }
