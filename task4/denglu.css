@@ -54,12 +54,25 @@ header .title {
           margin-top: 20px;
     box-sizing: border-box;}
 .img1{position: relative;
-       top:55px;}
+       top:55px;
+       padding-left: 5px;}
 .img2{position: relative;
-       top:75px;}
+       top:75px;
+    padding-left: 5px;}
+.tiao1,.tiao2{width: 1px;
+       height:40px;
+       background-color: darkgrey;
+}
+.tiao1{ position: absolute;
+    top: 65px;
+    left:35px;
+}
+.tiao2{ position: absolute;
+    top:135px;
+    left:35px;}
 button{width:100vw;
         height:50px;
-        margin-top: 150px;
+        margin-top: 120px;
         background-color:#5FC0CD;
         color: white;}
 footer{
