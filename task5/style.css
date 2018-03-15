@@ -1,0 +1,172 @@
+html{
+    font-size:625%;
+}
+body{
+    margin:0;
+    overflow-x:hidden;
+}
+header{
+    width:100vw;
+    height:50px;
+    background-color:darkturquoise;
+    position:fixed;
+    top:0;
+    z-index:1;
+}
+.p{
+    font-size: 0.3rem;
+    color:white;
+    text-align: center;
+    margin-top: .05rem;
+}
+.img1{
+    position: absolute;
+    left:.3rem;
+}
+main{
+    width:100vw;
+    height:326px;
+    background-image:url("image/beijing.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    margin-top: 0;
+    position:relative;
+    top:.5rem;
+}
+.img2{
+    margin:1rem .5rem;
+}
+.information{
+    width:100vw;
+    height:20px;
+    font-size:.2rem;
+    color:white;
+    position:absolute;
+    top:1.5rem;
+    left:3rem;
+}
+.information span{
+    font-size:.18rem;
+    color:white;
+}
+.address{
+    width:100vw;
+    height:23px;
+    background-image:url("image/shape.png");
+    background-repeat:no-repeat;
+    font-size:.15rem;
+    color:white;
+    line-height:23px;
+    padding-left:.3rem;
+    position:absolute;
+    top:2rem;
+    left:3rem;
+}
+.jineng{
+    width: 100vw;
+    height:60px;
+    font-size:.2rem;
+    border-bottom: 1px solid #9c9c9e;
+    margin-top:1rem;
+    line-height:60px;
+    padding-left:1rem;
+}
+.tiao{
+    width:3px;
+    height:20px;
+    background-color:darkturquoise;
+    background-position:center;
+    margin-top:-40px;
+    margin-left: 50px;
+}
+.ps{
+    width:100vw;
+    height:60px;
+    display:flex;
+    align-items:center;
+    font-size:.2rem;
+    border-bottom: 1px solid #9c9c9e;
+    margin: 20px 55px;
+}
+.ps1{
+    padding-left:15px;
+}
+.ps2{
+    border-left:1px solid #9c9c9e;
+    margin-left:20px;
+    padding-left:20px;
+}
+.img3{
+    padding-right:10px;
+}
+ul{
+    margin-top:-20px;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 0 15px;
+    border-bottom: 1px solid #9c9c9e;
+    font-size:.2rem;
+}
+.ps3,.ps6{
+    color:gainsboro;
+    margin-right:20px;
+}
+.ps4,.ps5{
+    border-left:1px solid #9c9c9e;
+    padding-left:20px;
+}
+.ps5{
+    color:red;
+}
+li.ps8{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #9c9c9e;
+    margin-left:-40px;
+    padding-left:70px;
+}
+.ps6{
+    border-right:1px solid #9c9c9e;
+    white-space:nowrap;
+    padding-right:20px;
+}
+.ps7{
+    font-size:.15rem;
+    padding-left:20px;
+}
+footer{
+    width:100vw;
+    height:60px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    margin-top:2rem;
+}
+.word{
+    width:30vw;
+    height:60px;
+    float:left;
+    margin-left:.5rem;
+    border:3px solid darkturquoise;
+    color:darkturquoise;
+    background-color:white;
+    outline:none;
+    font-size:.2rem;
+    border-radius:6%;
+}
+.phone{
+    width:30vw;
+    height:60px;
+    float:right;
+    margin-right:.5rem;
+    background-color:darkturquoise;
+    color:white;
+    font-size:.2rem;
+    border-radius:6%;
+    outline:none;
+    white-space:nowrap;
+}
+
