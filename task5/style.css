@@ -1,11 +1,6 @@
 html {
     font-size: 625%;
 }
-@media screen and (max-width:760px){
-    html {
-        font-size:312%;
-    }
-}
 body {
     margin: 0;
     padding:0;
@@ -23,8 +18,7 @@ header {
     width:.23rem;
     height:.37rem;
     float:left;
-    text-align: left;
-    line-height: .37;
+    margin: -.5rem .1rem;
 }
 .p{
     text-align:center;
@@ -34,48 +28,44 @@ header {
 }
 .beijing{
     width: 100%;
-    height: 6rem;
+    height: 3rem;
     background-image: url(image/beijing.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top: .7rem;
+    padding-left:  .1rem;
     z-index: 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 .img2 {
-    width:1.69rem;
-    height:1.7rem;
-    background-image: url(image/img2.png);
-    background-repeat:no-repeat;
-    background-size:cover;
-    margin-left:1rem;
-    z-index:1;
+    width:1.2rem;
+    height:1.2rem;
 }
 .information{
-    margin-left: 1rem;
+    margin-left: .2rem;
 }
 .information-about {
-    font-size: .2rem;
+    font-size: .15rem;
     color: white;
     margin-bottom: .2rem;
 }
 .information-about span {
-    font-size: .18rem;
+    font-size: .14rem;
     color: white;
 }
 .address {
     width: 1.5rem;
     height: 23px;
-    background-image: url(image/shape.png);
+    background-image: url(image/dian.png);
     background-repeat: no-repeat;
     background-size: .18rem .23rem;
     background-position: 0 50%;
-    font-size: .15rem;
+    font-size: .1rem;
     color: white;
     line-height: 23px;
-    padding-left: .4rem;
+    padding-left: .3rem;
 }
 .jineng {
     width: 100%;
@@ -99,20 +89,20 @@ header {
 }
 .ps {
     width: 100%;
-    height: .6rem;
+    height: .45rem;
     position:relative;
-    top: -1.9rem;
-    left: 50px;
+    top: -1.8rem;
+    left: .4rem;
     display: flex;
     align-items: center;
-    font-size: .2rem;
+    font-size: .15rem;
     border-bottom: 1px solid #EEF0F1;
 }
 .ps1 {
     width: .7rem;
     height: .23rem;
     border-right: 1px solid #EEF0F1;
-    padding: 0 .1rem 0 .2rem;
+    padding-left: .1rem;
 }
 .ps2 {
     width: 1.5rem;
@@ -126,17 +116,18 @@ header {
     line-height:.23rem;
 }
 ul{
+    width:auto;
+    height: 1rem;
    position: relative;
-    top: -2.9rem;
+    top: -2.85rem;
 }
 li {
-    width:100%;
+    width:auto;
     display: flex;
     align-items: center;
     padding: .15rem;
-    margin: 0 .15rem;
     border-bottom: 1px solid #EEF0F1;
-    font-size: .2rem;
+    font-size: .15rem;
 }
 .ps3,
 .ps6 {
@@ -156,14 +147,12 @@ li.ps8 {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #EEF0F1;
-    margin-left: -.9rem;
-    margin-right:-.2rem;
-    padding-left: 1.2rem;
+    margin-left: -.4rem;
 }
 .ps6 {
     border-right: 1px solid #EEF0F1;
     white-space: nowrap;
-    padding-right: .2rem;
+    padding: 0 .2rem 0 .4rem;
 }
 .ps7 {
     font-size: .15rem;
@@ -172,15 +161,15 @@ footer {
     width: 100vw;
     height: .6rem;
     position: fixed;
-    bottom: .1rem;
-    left: 0;
+    bottom: 0;
+    margin-bottom:.2rem;
     display:flex;
     justify-content: space-around;
     align-items: flex-start;
     z-index: 888888;
 }
 .word {
-    width: 30vw;
+    width: 35vw;
     height:.6rem;
     border: 3px solid #5FC0CD;;
     background-color: white;
@@ -190,12 +179,12 @@ footer {
     align-items: center;
 }
 .word .b{
-    font-size: .4rem;
+    font-size: .25rem;
     color: #5FC0CD;;
     text-decoration: none;
 }
 .phone {
-    width: 30vw;
+    width: 35vw;
     height: .6rem;
     border-radius: 10px;
     border: 3px solid #5FC0CD;;
@@ -203,10 +192,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
 }
 .phone .c{
     text-decoration: none;
-    font-size: .4rem;
+    font-size: .25rem;
     color: #FFF;
 }
 
