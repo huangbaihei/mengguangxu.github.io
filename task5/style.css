@@ -73,7 +73,7 @@ header {
     position: relative;
     top: -1.6rem;
     font-size: .2rem;
-    border-bottom: 1px solid#EEF0F1;
+    border-bottom: 1px solid #EEF0F1;
     margin-top: 1.6rem;
     line-height: .6rem;
     padding-left: .7rem;
@@ -131,7 +131,7 @@ li {
 }
 .ps3,
 .ps6 {
-    color: #EEF0F1;
+    color: #C0C0C0;
     margin-right: .2rem;
 }
 .ps4,
@@ -159,10 +159,10 @@ li.ps8 {
 }
 footer {
     width: 100vw;
-    height: .6rem;
+    height: .8rem;
+    background-color:white;
     position: fixed;
     bottom: 0;
-    margin-bottom:.2rem;
     display:flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -187,8 +187,8 @@ footer {
     width: 35vw;
     height: .6rem;
     border-radius: 10px;
-    border: 3px solid #5FC0CD;;
-    background-color: #5FC0CD;;
+    border: 3px solid #5FC0CD;
+    background-color: #5FC0CD;
     display: flex;
     justify-content: center;
     align-items: center;
