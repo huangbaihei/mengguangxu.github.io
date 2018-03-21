@@ -4,6 +4,7 @@
  body {
      margin: 0;
      padding: 0;
+     overflow-x: hidden;
  }
  /*头部*/
  header {
@@ -38,7 +39,7 @@
      position: relative;
      left: -.15rem;
      display: inline-block;
-     background-color: #DDD;
+     background-color: white;
  }
  .header-right a {
      text-decoration: none;
@@ -48,42 +49,49 @@
  .icon {
      position:absolute;
      right: .1rem;
-     top: .15rem;
-     width: .32rem;
-     height: .34rem;
+     top: .17rem;
+     width: .22rem;
+     height: .24rem;
  }/*图片链接使用绝对定位*/
  /*导航栏*/
  nav {
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
      position: fixed;
      top:0;
-     text-align: center;
-     line-height: .4rem;
      width: 100%;
-     height: .4rem;
+     height: auto;
      margin-top: .7rem;
      border-bottom: 1px solid #E9EFF1;
      background-color: white;
      z-index: 666666;
  }
  .submenu,
- .submenu1 {
+ .submenu1,
+ .submenu2 {
      width: 100%;
-     height:.3rem;
+     height: .5rem;
      font-size: .13rem;
      color: #BCBCBC;
      border-right: 1px solid #E9EFF1;
      border-top: none;
      border-bottom: none;
      border-left: none;
+     padding-left:10%;
  }
- .submenu1 {
+ .submenu2 {
      border: none;
  }
  /*中部*/
  main {
      margin-top: 1.2rem;
      width: 100%;
-     height: 10rem;
+     height: auto;
+     margin-bottom: .7rem;
+ }
+ main .container {
+     margin:0 -15px 0 -15px;
  }
  ul {
      list-style: none;
@@ -102,11 +110,17 @@
      background-size: .14rem .14rem;
      padding-left: .3rem;
      color: #BCBCBC;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
  }
  .time {
      width: 3rem;
      height: .3rem;
      padding-left: .3rem;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
  }
  .hour {
      display: flex;
@@ -114,7 +128,6 @@
      align-items: center;
      width: 1rem;
      height:.3rem;
-     padding-left: .2rem;
  }
  .price {
      color: #E84920;
@@ -135,6 +148,9 @@
      background-size: .14rem .14rem;
      padding-left: .3rem;
      color: #BCBCBC;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
  }
 
  /*底部*/
@@ -145,7 +161,7 @@
      position: fixed;
      bottom: 0;
      width: 100%;
-     height: .8rem;
+     height: .7rem;
      border-top: 1px solid #E9EFF1;
      background-color:white;
  }
@@ -155,11 +171,14 @@
      flex-direction: column;
      width: 46px;
      height: 70px;
+     cursor:pointer;
  }
  .footer-left-img {
      width: 46px;
      height: 40px;
      background: url(../image/img1.png) no-repeat -50px 0;
+     text-overflow: ellipsis;
+     white-space: nowrap;
  }
  .footer-left-wrap,
  .footer-right-wrap{
@@ -175,8 +194,8 @@
  }
  footer a {
      display: block;
-     width: .7rem;
-     height: .7rem;
+     width: .6rem;
+     height: .6rem;
  }
  .footer-right {
      display: flex;
@@ -184,6 +203,9 @@
      flex-direction: column;
      width: 46px;
      height: 70px;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     cursor:pointer;
  }
  .footer-right-img {
      width: 42px;
