@@ -82,6 +82,7 @@
      height: auto;
      margin-top: 1.3rem;
      background-color: #29BDE0;
+     margin-bottom: 1rem;
  }
  .box {
      width:25vw;
@@ -122,7 +123,6 @@
      width:25vw;
      height:.3rem;
      margin-top: .2rem;
-     margin-bottom: 1rem;
      visibility: hidden;
  }
  .big-box:hover~  .small-box {
