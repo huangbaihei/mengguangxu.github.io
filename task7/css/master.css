@@ -102,6 +102,7 @@ footer {
     height: .4rem;
     background-color: #F66F6F;
     z-index: 666666;
+    border-radius: 10px;
 }
 .footer-right {
     display: flex;
@@ -110,6 +111,7 @@ footer {
     width: 1.5rem;
     height: .4rem;
     background-color: #FBB435;
+    border-radius: 10px;
 }
 .footer-left a,
 .footer-right a {
