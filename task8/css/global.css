@@ -1,276 +1,271 @@
-* {
-    margin: 0;
-    padding: 0;
+html {
+    font-size: 625%;
+    box-sizing: border-box;
 }
 body {
-    font-size: 62.5%;
-    padding-top: 7rem;
-}
-header {
-    position: fixed;
-    top: 0;
-    z-index: 100;
-}
-.head1 {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 3rem;
-    background-color: white;
-    /*需要添加白色背景色，原因是定位后，滚动条下滑时不添加背景色会导致主体部分图片显示在最顶部*/
-}
-.tel {
-    position: absolute;
-    left: 10%;
-    color: #29b078;
-    line-height: 3rem;
-}
-.head-image {
-    position: absolute;
-    right: 10%;
-    top: 50%;
-    margin-top: -1rem;
-    list-style: none;
-}
-.head-image li {
-    float: left;
-    padding-left: .5rem;
-}
-.head-image1 {
-    width: 2rem;
-    height: 2rem;
-    border: 0;
-}
-.weixin {
-    background: url(../image/wei.png);
-    background-size: 2rem;
-}
-.qq {
-    background: url(../image/qq.png);
-    background-size: 2rem;
-}
-.xinlang {
-    background: url(../image/bo.png);
-    background-size: 2rem;
-}
-.head2 {
-    position: fixed;
-    top: 3rem;
-    width: 100%;
-    background-color: #29b078;
-    font-size: 1.5rem;
-}
-.head2 .navbar-toggle {
-    border: .1rem solid white;
-    margin-right: 10%;
-    /*更改标题栏显示“书签”标识时的默认样式以及距离页面右边的距离，使其和上面的图片显示一致*/
-}
-.navbar {
-    margin: 0;
-}
-span.icon-bar {
-    background-color: white;
-}
-.nav li a {
-    color: white;
-}
-.nav li a:hover {
-    background: #29b078;
-    border-bottom: .2rem solid white;
-}
-.carousel {
-    background-color: #999999;
-}
-.carousel .item {
-    background-color: #999999;
-    /*可以给图片所在div添加背景色，该任务无用*/
-}
-.carousel img {
-    width: 100%;
-    /*设置图片宽度100%，使图片铺满div*/
-}
-.head3 {
-    float: right;
-}
-.main {
     background-color: #fafafa;
 }
-
-.row-image {
-    padding-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
+a:hover {
+    text-decoration: none;
 }
-.row-image p {
-    padding-top: 5px;
-    color: #999999;
-    font-size: 16px;
+h3,
+h4 {
+    color: #000;
+    font-weight: bold;
 }
-
-.row-people {
-    padding-top: 120px;
-    text-align: center;
-    border-left: .1rem dashed #dedede;
-}
-.row-people p {
-    padding-top: 5px;
-    color: #999999;
-    font-size: 16px;
-}
-.col-sm-3 {
-    margin: 3rem 0;
-}
-.how-study {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
-}
-
-.how-study1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2rem 0;
-}
-.how-study1 p {
-    margin: 0;
-    color: #999999;
-    letter-spacing: .1rem;
-}
-.radius {
-    background-color: white;
-    border-radius: 50%;
+/* 头部联系方式 */
+.hd-contact {
     color: #29b078;
-    font-size: 1.5rem;
-    box-shadow: 0 3px 6px #eae9ea;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
 }
-.radius1 {
-    width: 4rem;
-    height: 4rem;
-    display: flex;
+/* 响应式导航栏 */
+.screen-nav {
+    background-color: #29b078;
+    margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+    .screen-nav {
+        padding: 0;
+    }
+}
+.nav-ul {
+    float: right;
+    margin: 0;
+}
+@media screen and (max-width: 767px) {
+    .nav-ul {
+        float: none;
+        text-align: center;
+    }
+}
+.nav-logo {
+    line-height: .7rem;
+}
+@media screen and (max-width: 768px) {
+    .nav-img {
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .nav-img {
+        margin-left: .15rem;
+    }
+}
+.nav-ul li a {
+    height: .7rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    color: #fff !important;
+    background-color: #29b078 !important;
+    box-sizing: border-box;
+}
+.navbar-collapse .nav-ul li a:hover,
+.navbar-collapse .nav-ul li a:focus {
+    border-bottom: 3px solid #fff;
+}
 
+.nav-btn {
+    margin: .18rem 0;
+    float: right;
 }
-.radius2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media screen and (max-width: 768px) {
+    .nav-btn{
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .nav-btn {
+        margin-right: .15rem;
+    }
+}
+/* 消除导航栏默认边框 */
+.navbar-default {
+    border: 0;
+}
+/* 消除默认的圆角边框 */
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+    .active a {
+        border-bottom: 3px solid #fff;
+    }
+}
+/* 轮播图 */
+/* 当屏幕缩小时图片能够自适应大小 */
+.slide .carousel-inner img {
+    max-height: 6rem;
     width: 100%;
+}
+.bd {
+    color: #999;
+    background-color: #fafafa;
+}
+/* 标签栏 */
+.tag .tag-box {
+    padding: .7rem 0 .5rem;
+}
+.tag .tag-info {
+    margin-top: .7rem;
+    padding: .3rem 0 .5rem .5rem;
+    border-left: 1px dashed #dedede;
+}
+@media screen and (max-width: 992px) {
+    .tag-info {
+        text-align: center;
+    }
+}
+/* 为了使三个标签都处于同一水平线上 */
+.tag .tag-box-icon {
+    height: .6rem;
+}
+.tag .tag-box img {
     height: 100%;
 }
-/*初次使用flex布局，垂直居中和水平居中很6，但是圆圈实现的时候，由于布局中空间不够会导致圆圈变形，因此多加了两个div来撑开圆圈*/
-.good-student {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-    background-color: white;
+.tag .tag-info .tag-num:first-child {
+    padding-bottom: .1rem;
 }
-/*该处使用flex定位只能将p居中，图片和h居中依靠的时bootstrap中的text-center属性*/
-.student p {
-    width: 140px;
-    color: #999999;
-
+.title,
+.step-bottom {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
-.click-circle{
-    text-align: center;
-    padding: .5rem 0;
+/* 标题 */
+.title h3 {
+    font-size: .2rem;
 }
-.circle{
+/* 学习步骤 */
+.step .step-text {
+    margin: 0 auto;
+    width: 2.4rem;
+}
+.step .step-text .icon-circle {
+    height: .7rem;
+    line-height: .7rem;
+}
+.step .step-text div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.step .text {
+    width: 1.2rem;
+}
+.step .icon-circle {
+    width: .7rem;
+    font-size: .18rem;
+    border-radius: 50%;
+    color: #29b078;
+    box-shadow: 0 0 2px 2px #e2e2e2;
+    background-color: #fff;
+}
+.step .icon-arrow {
+    width: .33rem;
+    height: .31rem;
+    background: url(../image/san.png) no-repeat;
+}
+.step > div {
+    margin-bottom: .5rem;
+}
+/* 优秀学员展示 */
+.message .message-wrap {
+    margin: .2rem 0;
+    padding: .2rem;
+    line-height: .25rem;
+    border: 1px solid #e2e2e2;
+    background-color: #fff;
+}
+.message .message-wrap .photo img {
+    margin: 0 auto;
     width: 1rem;
     height: 1rem;
-    border-radius: 1rem;
-    border:0 solid #26a26f;
-    margin-left: 0.5rem;
+    border-radius: 50%;
 }
-.circle:hover{
-    background-color: #26a26f;
+.message .message-wrap span {
+    line-height: .5rem;
+    color: #000;
+    font-weight: bold;
 }
-.cooperator {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.dot li {
+    box-shadow: 0 1px 1px 1px #999;
 }
-.cooperator2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    /*flex-wrap页面过小时自动换行显示*/
-    background-color: white;
-    padding: 0 15px;
-    /*加15px的padding是消除bootstrap自带的-15px的影响*/
-    margin-top: 3rem;
+.dot .active {
+    background-color: #29b078;
 }
-.cooperator1:hover {
-    box-shadow: 0 5px 10px #eae9ea;
+.dot {
+    bottom: -.5rem;
 }
-.cooperator1 img {
+/* 战略合作企业 */
+.company li {
+    margin-bottom: .1rem;
+    width: 2.2rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    background-color: #fff;
+}
+.company li:hover {
+    box-shadow: 0 0 2px 2px #e2e2e2;
+}
+.company {
+    margin-bottom: 1rem;
+}
+/* 友情链接 */
+.blogroll {
     width: 100%;
-    padding: 3rem 4rem;
-
+    background-color: #fff;
 }
-.lianjie {
-    width: 100%;
-    background-color: white;
-    margin-top: 5rem;
+.blogroll .title {
+    padding-top: .2rem;
+    padding-bottom: .2rem;
 }
-.lianjie .how-study {
-    padding: 1rem 0;
+.blogroll-list {
+    color: #a1a1a1;
 }
-.lianjie2 {
-    padding-right: 0;
-    /*消除bootstrap默认的padding，使链接都居中*/
+.blogroll-list ul {
+    padding-bottom: .2rem;
+    margin-bottom: 0;
 }
-.lianjie1 li {
-    color: #999999;
-}
-.lianjie1 li a {
-    color: #999999;
-}
-
-.lianjie1 {
-    display: flex;
-    justify-content: space-around;
-    /*space-between：两端对齐，项目之间的间隔都相等*/
-}
-li a:hover {
-    color:#000;
-    text-decoration: none;
-    border-bottom: 1px solid #1DB176;
+.blogroll-list li {
+    height: .2rem;     /* 给个固定高度，hover时就不会出现高度突然变化 */
+    margin: 0 .15rem;
     cursor: pointer;
 }
-
-
-footer {
-    width: 100%;
-    background-color: #29b078;
-    position: relative;
-    color: white;
+.blogroll-list li:hover {
+    border-bottom: 1px solid #26a26f;
 }
-footer h4 {
-    font-size: 1.5rem;
-    padding-top: 2rem;
+/* 底部 */
+.ft {
+    color: #fff;
+    background-color: #26a26f;
+}
+.ft .container {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+.ft .ft-left span {
+    padding-left: .1rem;
+    padding-right: .1rem;
+}
+.ft .ft-left a,
+.ft .ft-center a {
+    color: #fff;
+}
+.ft .ft-left a:hover,
+.ft .ft-center a:hover {
+    border-bottom: 1px solid #fff;
+}
+.ft .ft-center div a:first-child {
+    margin-right: .3rem;
+}
+.ft .ft-left div {
+    padding-top: .6rem;
+}
+.ft .ft-center div {
+    padding-top: .2rem;
+}
+.ft .ft-bottom {
+    border-top: 1px solid #32c086;
+}
+.ft .ft-bottom p {
     margin: 0;
-}
-footer ul {
-    list-style: none;
-}
-footer li {
-    float: left;
-}
-footer li a {
-    color: white;
-    font-size: 1rem;
-}
-footer li a:hover {
-    color: white;
-}
-.net {
-    margin-top: 2rem;
-    clear: both;
-    background: #29b078;
-    padding: .5rem 0;
-    text-align: center;
-    border-top: .2rem solid #32c086;
 }

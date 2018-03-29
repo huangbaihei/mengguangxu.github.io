@@ -1,936 +1,944 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>企业网站</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <title>职业推荐</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/master.css">
 </head>
 <body>
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="top">
-                    <div class="top-left">客服热线： 010-594-78634</div>
-                    <div class="top-right">
-                        <a href="#"> <img src="../image/wei.png" alt="" width="70%"></a>
-                        <a href="#"><img src="../image/qq.png" alt="" width="70%"></a>
-                        <a href="#"><img src="../image/bo.png" alt="" width="70%"></a>
-                    </div>
-                </div>
-            </div>
+<!-- 头部 -->
+<header class="hd">
+    <div class="container hd-contact">
+        <div class="pull-left">
+            <span>客服热线：010-594-78634</span>
+        </div>
+        <div class="pull-right">
+            <a href=""><img src="../image/wei.png" alt="微信"></a>
+            <a href=""><img src="../image/qq.png" alt="QQ"></a>
+            <a href=""><img src="../image/bo.png" alt="新浪微博"></a>
         </div>
     </div>
-    <div class="header-box">
+    <!-- 响应式导航栏 -->
+    <nav class="navbar navbar-default screen-nav" role="navigation">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <img class="header-left" src="../image/logo.png">
-                    <div class="header-box1">
-                        <div class="header-box2"><a href="#">关于</a></div>
-                        <div class="header-box3"></div>
-                    </div>
-                    <div class="header-box1">
-                        <div class="header-box2"><a href="task8-3.html">推荐</a></div>
-                        <div class="header-box3"></div>
-                    </div>
-                    <div class="header-box1">
-                        <div class="header-box2"><a href="task8-2.html">职业</a></div>
-                        <div class="header-box3"></div>
-                    </div>
-                    <div class="header-box1">
-                        <div class="header-box2"><a href="task8-1.html">首页</a></div>
-                        <div class="header-box3"></div>
-                    </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle nav-btn collapsed" data-toggle="collapse" data-target="#example-navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="nav-logo">
+                    <a href="task8-1.html">
+                        <img class="nav-img" src="../image/logo.png">
+                    </a>
                 </div>
             </div>
+            <div class="navbar-collapse collapse" id="example-navbar-collapse" aria-expanded="false">
+                <ul class="nav navbar-nav nav-ul">
+                    <li><a href="task8-1.html">首页</a></li>
+                    <li class="active"><a href="#">职业</a></li>
+                    <li><a href="task8-2.html">推荐</a></li>
+                    <li><a href="">关于</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
 </header>
-<nav>
+<div class="bd">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                <div class="nav-top">首页><span>合作企业</span></div>
+            <div class="col-md-12">
+                <ul class="breadcrumb">
+                    <li><a href="#">首页</a></li>
+                    <li class="active"><a href="#">职业</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="direction list-inline">方向：
+                    <li><a href="#">全部</a></li>
+                    <li><a href="#">前端开发</a></li>
+                    <li><a href="#">后端开发</a></li>
+                    <li><a href="#">移动开发</a></li>
+                    <li><a href="#">整站开发</a></li>
+                    <li><a href="#">运营维护</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 前端开发 -->
+        <div class="row job-title">
+            <div class="col-md-12">
+                <h3>前端开发方向</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 后端开发 -->
+        <div class="row job-title">
+            <div class="col-md-12">
+                <h3>后端开发方向</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 运维方向 -->
+        <div class="row job-title">
+            <div class="col-md-12">
+                <h3>运维方向</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 产品经理 -->
+        <div class="row job-title">
+            <div class="col-md-12">
+                <h3>产品经理方向</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 job-card">
+                <div class="col-xs-12 job-wrap">
+                    <!-- 上部 -->
+                    <div class="row card-top clearfix">
+                        <div class="photo pull-left">
+                            <img src="../image/image.png" alt="">
+                        </div>
+                        <h4>Web前端工程师</h4>
+                        <p>Web前端开发工程师，主要职责是利用(X)HTML / CSS / JavaScript / flash等各种Web技术进行产品的开发。</p>
+                    </div>
+                    <!-- 中部 -->
+                    <div class="row card-center">
+                        <div class="col-md-5 col-xs-12 border-top">
+                            <span class="gray">门槛&nbsp;</span>
+                            <span class="star"></span>
+                        </div>
+                        <div class="col-md-7 col-xs-12 border-top">
+                            <span class="gray">难易程度&nbsp;</span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
+                    <div class="row card-center border-top">
+                        <div class="col-md-5 col-xs-12">
+                            <span class="gray">成长周期&nbsp;</span>
+                            <span class="num">1-3</span><span>年</span>
+                        </div>
+                        <div class="col-md-7 col-xs-12">
+                            <span class="gray">稀缺程度&nbsp;</span>
+                            <span class="num">345</span>家公司需要
+                        </div>
+                    </div>
+                    <!-- 薪资 -->
+                    <div class="row card-salary border-top">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="row">&nbsp;</div>
+                            <div class="row text-center">
+                                <span class="gray">薪资待遇</span></div>
+                            <div class="row">&nbsp;</div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <div class="row">
+                                <span class="col-xs-6">0-1年</span>
+                                <span class="col-xs-6 text-right">5k-10k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">1-3年</span>
+                                <span class="col-xs-6 text-right">10k-20k/年</span>
+                            </div>
+                            <div class="row">
+                                <span class="col-xs-6">3-5年</span>
+                                <span class="col-xs-6 text-right">20k-50k/年</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-top">
+                        <div class="col-xs-12">有<span class="num">286</span>人正在学</div>
+                    </div>
+                    <div class="row card-bottom border-top">
+                        <div class="col-xs-12 gray">提示：在你学习之前你应该已经掌握XXXX、XXXX等语言基础</div>
+                    </div>
+                    <div class="col-xs-12 job-hide">
+                        <h4 class="text-center">iOS工程师</h4>
+                        <p>iOS是由苹果公司开发的移动操作系统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。国内iOS开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
+<!-- 底部 -->
+<footer class="ft">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-               <div class="nav-box">
-                   <div class="nav-bottom">方向：</div>
-                   <div class="nav-left">
-                       <div class="nav-right"><span>全部</span></div>
-                       <div class="nav-right"><span>前端开发</span></div>
-                       <div class="nav-right"><span>后端开发</span></div>
-                       <div class="nav-right"><span>移动开发</span></div>
-                       <div class="nav-right"><span>整站开发</span></div>
-                       <div class="nav-right"><span>运维维护</span></div>
-                   </div>
-               </div>
-            </div>
-        </div>
-    </div>
-</nav>
-<main>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-12">
-                <div class="main-top">前端开发方向</div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
+            <div class="col-md-5 col-sm-5 ft-left">
+                <p>技能树―改变你我</p>
+                <div>
+                    <a href="">关于</a><span>|</span><a href="">联系我们</a><span>|</span><a href="">合作企业</a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
+            <div class="col-md-5 col-sm-5 ft-center">
+                <p>旗下网站</p>
+                <div>
+                    <a href="">草船云孵化器</a><a href="">最强IT特训营</a>
+                </div>
+                <div>
+                    <a href="">葡萄藤轻游戏</a><a href="">桌游精灵</a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
+            <div class="col-md-2 col-sm-2 ft-right">
+                <p>微信公众平台</p>
+                <div>
+                    <img src="../image/qrcod.png" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-12">
-                <div class="main-top">后端开发方向</div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-12">
-                <div class="main-top">运维方向</div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>20k-50k/月</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-12">
-                <div class="main-top">运维方向</div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                <div class="main-box">
-                    <div class="image">
-                        <img class="img" src="../image/image.png" width="80%" height="80%%">
-                        <div class="word">
-                            <p class="word1"><strong>Web前端工程师</strong></p>
-                            <p class="word2">Web前端开发工程师，主要职责是利用(X)HTML/CSS/JavaScript/flash等各种Web技术进行产品的开发</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>门槛</span>
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                            <div class="main-content1">
-                                <span>难易程度</span>
-                                <img class="images" src="../image/wu.png">
-                                <img class="images" src="../image/wu.png">
-                            </div>
-                        </div>
-                        <div class="ul">
-                            <div class="main-content">
-                                <span>成长周期</span>
-                                <p>1-3</p><strong>年</strong>
-                            </div>
-                            <div class="main-content1">
-                                <span>稀缺程度</span>
-                                <p>345</p><strong>家公司需要</strong>
-                            </div>
-                        </div>
-                        <table>
-                            <tr>
-                                <td class="main-bottom" rowspan="3">薪资待遇</td>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>0-1年</p>
-                                    <p>5k-10k/月</p>
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td class="main-bottom1" colspan="2">
-                                    <p>1-3年</p>
-                                    <p>10k-20k/月</p>
-                                </td>
-                            </tr>
-                        <tr>
-                            <td class="main-bottom1" colspan="2">
-                                <p>0-1年</p>
-                                <p>20k-50k/月</p>
-                            </td>
-                        </tr>
-                        </table>
-                        <div class="main-footer">
-                            <P><strong>有<span>286</span>人正在学</strong></P>
-                        </div>
-                        <div class="main-footer1">提示:在你学习之前你应该已经掌握XXXXX、XXXXX、XX等语言基础</div>
-                    </div>
-                    <div class="main-hidden">
-                        <div class="name">iOS工程师</div><br><br>
-                        <div class="introduce"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios是由苹果公司开发的移动操作系统，ios与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属于类Unix的商业操作系统。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。国内ios开发起步相对较晚，人才培养机制更是远远跟不上市场发展速度。有限的ios开发人才成了国内企业必争的资源。</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-            </div>
-        </div>
-    </div>
-</main>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                <div class="footer-left">技能树—改变你我</div>
-                <div class="footer-box">
-                    <div class="footer-box1"><a href="#">关于我们</a></div>
-                    <div class="footer-box2"><a href="#">联系我们</a></div>
-                    <div class="footer-box3"><a href="#">合作企业</a></div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                <div class="footer-right"><a href="#">旗下网站</a></div>
-                <div class="footer-right-box">
-                    <div class="footer-right-box1"><a href="#">草船云孵化器</a></div>
-                    <div class="footer-right-box2"><a href="#">最强IT训练营</a></div>
-                </div>
-                <div class="footer-right-box">
-                    <div class="footer-right-box1"><a href="#">葡萄藤轻游戏</a></div>
-                    <div class="footer-right-box2"><a href="#">桌游精灵</a></div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                <div class="footer-image">
-                    <div >微信公众平台</div>
-                    <img src="../image/qrcod.png">
-                </div>
-            </div>
-        </div>
+    <div class="text-center ft-bottom">
+        <p>Copyright&nbsp;&copy;&nbsp;2015技能树&nbsp;www.jnshu.com&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;|&nbsp;京ICP备13005880号</p>
     </div>
 </footer>
-<address>Copyright © 2015 北京葡萄藤信息技术有限公司 All Rights Reserved | 京ICP备15035574号-1</address>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
