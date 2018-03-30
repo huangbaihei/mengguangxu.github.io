@@ -11,8 +11,10 @@ a:hover {
 /* 头部联系方式 */
 .hd-contact {
     color: #29b078;
-    padding-top: .1rem;
-    padding-bottom: .1rem;
+}
+.pull-left span {
+    display: flex;
+    margin-top: .06rem;
 }
 /* 响应式导航栏 */
 .screen-nav {
