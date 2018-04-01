@@ -80,19 +80,19 @@ header {
   @include img;
   top:75px;
 }
-@mixin tiao{
+@mixin box{
   position: absolute;
   left:55px;
   width: 1px;
   height:30px;
   background-color: darkgrey;
 }
-.tiao1{
-  @include tiao;
+.box1{
+  @include box;
   top: 70px;
 }
-.tiao2{
-  @include tiao;
+.box2{
+  @include box;
   top:140px;
  }
 button{

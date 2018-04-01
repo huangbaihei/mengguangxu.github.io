@@ -67,7 +67,7 @@ header .title {
   margin-left: 5px;
   top: 75px; }
 
-.tiao1 {
+.box1 {
   position: absolute;
   left: 55px;
   width: 1px;
@@ -75,7 +75,7 @@ header .title {
   background-color: darkgrey;
   top: 70px; }
 
-.tiao2 {
+.box2 {
   position: absolute;
   left: 55px;
   width: 1px;
