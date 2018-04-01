@@ -260,13 +260,13 @@
      padding: .1rem .05rem .1rem 0;
  }
  select {
-     width: .7rem;
+     width: .8rem;
      font-size: .1rem;
      border: 1px solid #f3f3f3;
      appearance: none;
      -webkit-appearance: none;   /*去除chrome浏览器的默认下拉图片*/
      background: url(image/san.png) no-repeat right center/.2rem .2rem;
-     padding-left: .05rem;
+     padding-left: .1rem;
      outline: none;
  }
  .size {
@@ -315,6 +315,10 @@
          justify-content: center;
          align-items: center;
      }
+ }
+ .main-box1 {
+     background-color: #fff;
+     padding: .1rem 0 .1rem .2rem;
  }
  .material {
      width: 100%;
