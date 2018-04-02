@@ -1,114 +1,103 @@
 
 body{
+  width: 100%;
    margin: 0;
    padding: 0;
    background-color:aliceblue;
  }
- $white: #fff;
- header {
-   a{
-     text-decoration: none;
-     color: $white;
-   }
- }
- $blue:#5FC0CD;
+ $blue:#5fc0cd;
 header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
   position: fixed;
-  width: 100vw;
-  height: 45px;
+  top: 0;
+  width: 100%;
   background:{color: $blue;}
+  box-sizing: border-box;
 }
+$white: #fff;
 @mixin left-right {
-  font-size: 0.5rem;
-  margin-top: 12px;
+  font-size: 1rem;
+  padding-top: 13px;
+  text-decoration: none;
+  color: $white;
 }
-header {
-  .text-left {
-    @include left-right;
-    float: left;
-    margin-left: 10px;
-  }
+.text-left {
+  @include left-right;
+  padding-left: 1rem;
 }
-  header {
-    .text-right{
-      @include left-right;
-      float: right;
-      margin-right: 10px;
-    }
-  }
-  header {
-    .title {
-      position: absolute;
-      width: 32px;
-      left: 0;
-      right: 0;
-      margin: 10px auto 0 auto;
-      font-weight: 600;
-      color: $white;
-      font-size: 1rem;
-    }
+.text-right{
+  @include left-right;
+  padding-right: 1rem;
+}
+.title {
+  padding: 10px 0;
+  color: $white;
+  font-size: 1.5rem;
+}
+  main {
+    width: 100%;
+    margin-top: 45px;
   }
 .form{
-  width: 100vw;
-  height: 40px;
-  padding-top: 10px;
+  width: 100%;
+  padding-top: 1rem;
+}
+@mixin img {
+  padding: 1rem 0;
+  border: 1px solid #ccc;
+}
+.img1{
+  @include img;
+  background: #fff url(../images/img1.png) no-repeat 20px 50%/1.3rem 2rem;
+}
+.img2{
+  @include img;
+  background: #fff url(../images/img2.png) no-repeat 20px 50%/1.3rem 2rem;
 }
 @mixin f1-f2 {
-  width: 100vw;
-  height:60px;
-  border:#ccc 1px solid;
+  margin-left: 4rem;
+  padding: .5rem 0 .5rem 1rem;
   outline: none;
-  box-sizing: border-box;
-  padding-left: 60px;
+  border: {
+    left: 1px solid #ccc;
+    top: none;
+    bottom: none;
+    right: none;
+  }
+
 }
 .form-f1{
   @include f1-f2;
 }
 .form-f2{
   @include f1-f2;
-  margin-top: 20px;
 }
-@mixin img {
-  position: relative;
-  margin-left: 5px;
-}
-.img1{
-  @include img;
-  top:55px;
-}
-.img2{
-  @include img;
-  top:75px;
-}
-@mixin box{
-  position: absolute;
-  left:55px;
-  width: 1px;
-  height:30px;
-  background-color: darkgrey;
-}
-.box1{
-  @include box;
-  top: 70px;
-}
-.box2{
-  @include box;
-  top:140px;
- }
-button{
-  width:100vw;
-  height:50px;
-  margin-top: 120px;
+
+.main-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 5rem;
   background: {color: $blue;}
-  color: $white;
-  outline: none;
+  cursor: pointer;
+}
+.main-box {
+  a {
+    color: $white;
+    text-decoration: none;
+  }
 }
 footer{
-  float:right ;
+  float: right ;
   margin: 2%;
 }
 footer {
-  a{text-decoration:none;
+  a{
+    text-decoration: none;
     color: $blue;
   }
 }
