@@ -12,9 +12,7 @@ header {
   top: 0;
   z-index: 999999;
   width: 100%;
-  height: .7rem; /*头部高度*/
-  text-align: center;
-  line-height: .7rem;
+  height: .7rem;
   background-color: #5AC0CE;
 }
 @mixin header-box{
@@ -27,8 +25,21 @@ header {
 }
 .header-left {
   @include header-box;
+  position: relative;
+  top: -.6rem;
+  left: 40vw;
   display: inline-block;
   background-color: #51A8B4;
+}
+@media screen and (max-width: 767px) {
+  .header-left {
+    @include header-box;
+    position: relative;
+    top: -.6rem;
+    left: 20vw;
+    display: inline-block;
+    background-color: #51A8B4;
+  }
 }
 .header-left {
   a {
@@ -39,8 +50,8 @@ header {
 }
 .header-right {
     @include header-box;
-    position: relative;
-    left: -.15rem;
+    position: absolute;
+    left: .9rem;
     display: inline-block;
     background-color: white;
   }
@@ -69,7 +80,7 @@ nav {
   top:0;
   width: 100%;
   height: auto;
-  margin-top: .7rem;
+  padding-top: .7rem;
   border-bottom: $border;
   background-color: #fff;
   z-index: 666666;
@@ -77,13 +88,13 @@ nav {
 @mixin submenu {
   width: 100%;
   height: .5rem;
+  padding-left:10%;
   font-size: .13rem;
   color: #BCBCBC;
-  border-right: 1px solid #E9EFF1;
+  border-right: $border;
   border-top: none;
   border-bottom: none;
   border-left: none;
-  padding-left:10%;
 }
 .submenu {
   @include submenu;
@@ -99,7 +110,7 @@ nav {
 main {
   width: 100%;
   height: auto;
-  margin: 1.2rem 0 .7rem 0;
+  padding: 1.2rem 0 .7rem 0;
 }
 main {
   .container {
@@ -125,6 +136,7 @@ li {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-size: .1rem;
 }
 .date {
   @include image;
@@ -143,6 +155,7 @@ li {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-size: .1rem;
 }
 .hour {
   display: flex;
@@ -158,6 +171,7 @@ li {
 }
 .price {
   color: #E84920;
+  font-size: .1rem;
   white-space: nowrap;
 }
 .mark {
@@ -216,8 +230,10 @@ footer {
   @include ft-wrap;
   color: #5FC0CD;
 }
-footer a {
-  display: block;
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: .6rem;
   height: .6rem;
 }
