@@ -101,7 +101,7 @@ $border: 1px solid #EEF0F1;
 .ps {
   position:relative;
   top: -1.8rem;
-  left: .4rem;
+  left: .2rem;
   display: flex;
   align-items: center;
   width: 100%;
@@ -131,6 +131,7 @@ ul{
   top: -2.85rem;
   width:auto;
   height: 1rem;
+  padding-left: .2rem;
 }
 li {
   display: flex;
@@ -190,7 +191,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35vw;
+  width: 45vw;
   height:.6rem;
   border: 3px solid #5FC0CD;;
   border-radius: 10px;

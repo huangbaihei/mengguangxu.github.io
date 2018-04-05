@@ -233,9 +233,9 @@ footer {
   width: 46px;
   height: 20px;
   padding-top: 6px;
-  padding-left: 6px;
   font-size: .15rem;
-  color: #5FC0CD; }
+  color: #5FC0CD;
+  padding-left: 6px; }
 
 .footer-box {
   display: flex;
@@ -263,8 +263,8 @@ footer {
   width: 46px;
   height: 20px;
   padding-top: 6px;
-  padding-left: 6px;
   font-size: .15rem;
-  color: #9A9A9A; }
+  color: #9A9A9A;
+  padding-left: 4px; }
 
 /*# sourceMappingURL=task12-2.css.map */

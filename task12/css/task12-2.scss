@@ -223,12 +223,12 @@ footer {
   width: 46px;
   height:20px;
   padding-top: 6px;
-  padding-left: 6px;
   font-size: .15rem;
 }
 .footer-left-wrap {
   @include ft-wrap;
   color: #5FC0CD;
+  padding-left: 6px;
 }
 .footer-box {
   display: flex;
@@ -249,4 +249,5 @@ footer {
 .footer-right-wrap {
   @include ft-wrap;
   color: #9A9A9A;
+  padding-left: 4px;
 }
