@@ -23,6 +23,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: .1rem;
   padding-left: .1rem; }
 
 .guan {
@@ -58,7 +59,8 @@ main {
 .main-top {
   padding: 0 .3rem;
   font-size: .15rem;
-  color: #F8C76B; }
+  color: #F8C76B;
+  text-align: center; }
 
 .main-box2 {
   display: flex;
@@ -137,8 +139,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1.5rem;
-  height: .4rem;
+  width: 40%;
+  height: 80%;
   border-radius: 10px;
   background-color: #F66F6F;
   z-index: 666666; }
@@ -147,8 +149,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1.5rem;
-  height: .4rem;
+  width: 40%;
+  height: 80%;
   border-radius: 10px;
   background-color: #FBB435; }
 

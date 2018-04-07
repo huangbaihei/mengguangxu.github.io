@@ -16,6 +16,7 @@ header {
 .kai {
   @include case (.3rem,.34rem);
   @include display;
+  padding-top: .1rem;
   padding-left: .1rem;
 }
 .guan {
@@ -49,6 +50,7 @@ main {
   padding: 0 .3rem;
   font-size: .15rem;
   color: #F8C76B;
+  text-align: center;
 }
 .main-box2 {
   @include display (flex,space-between,center);
@@ -119,8 +121,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1.5rem;
-  height: .4rem;
+  width: 40%;
+  height: 80%;
   border-radius: 10px;
 }
 .footer-left {
