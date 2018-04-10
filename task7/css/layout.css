@@ -128,6 +128,9 @@
  .big-box:hover~  .small-box {
      visibility: visible;
  }
+ .small-box a{
+     width: .15rem;
+ }
      /*页脚*/
  footer {
      position: fixed;

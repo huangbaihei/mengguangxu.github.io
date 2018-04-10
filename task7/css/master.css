@@ -84,6 +84,12 @@ main {
     height:1px;
     background-color: #D7D7D7;
 }
+.tiao1 {
+    width: 100%;
+    height:1px;
+    background-color: #D7D7D7;
+    margin-bottom: .7rem;
+}
 footer {
     position: fixed;
     bottom: 0;
