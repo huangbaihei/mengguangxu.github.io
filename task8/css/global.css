@@ -227,6 +227,14 @@ h4 {
     padding-bottom: .2rem;
     margin-bottom: 0;
 }
+@media screen and (max-width: 767px) {
+    .blogroll-list ul {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: .2rem;
+        margin-bottom: 0;
+    }
+}
 .blogroll-list li {
     height: .2rem;     /* 给个固定高度，hover时就不会出现高度突然变化 */
     margin: 0 .15rem;
