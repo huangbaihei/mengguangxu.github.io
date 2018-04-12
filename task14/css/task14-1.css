@@ -84,21 +84,23 @@ a {
 .nav-top-content {
   display: flex; }
 
-.top-content {
-  box-sizing: border-box;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: #29b078; }
-
-.top-content a {
+.top-content a,
+.top-content1 a {
   font-size: .18rem;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: .4rem .3rem; }
+  padding: .2rem .3rem; }
 
-.top-content:hover {
+.top-content a:hover,
+.top-content1 a:hover {
+  box-sizing: border-box;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #fff; }
+
+.top-content1 a {
   box-sizing: border-box;
   border-bottom-width: 2px;
   border-bottom-style: solid;

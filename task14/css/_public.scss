@@ -134,17 +134,19 @@ a {
 .nav-top-content {
   display: flex;
 }
-.top-content {
-  @include border-bottom (2px, solid, $green);
-}
-.top-content a{
+.top-content a,
+.top-content1 a{
   font-size: .18rem;
   color: $white;
   @include flex;
   justify-content: center;
-  padding: .4rem .3rem;
+  padding: .2rem .3rem;
 }
-.top-content:hover {
+.top-content a:hover,
+.top-content1 a:hover{
+  @include border-bottom (2px, solid, $white);
+}
+.top-content1 a {
   @include border-bottom (2px, solid, $white);
 }
 
