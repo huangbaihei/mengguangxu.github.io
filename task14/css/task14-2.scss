@@ -153,17 +153,17 @@ body {
   @include border-bottom (1px, solid, $gray-line);
 }
 .right-topic-icon {
-  width: 30%;
-  height: .33rem;
+  width: 25%;
+  height: .7rem;
   background-image: url(../image/logo2.png);
-  background-size: 50%;
-  background-position: center center;
+  background-size: 100%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 767px) {
   .right-topic-icon {
     width: 30%;
-    height: .33rem;
+    height: .4rem;
     background-image: url(../image/logo2.png);
     background-size: 80%;
     background-position: center center;
@@ -171,7 +171,7 @@ body {
   }
 }
 .right-topic-text {
-  width: 70%;
+  width: 75%;
   font-size: .14rem;
   color: $gray;
 }
