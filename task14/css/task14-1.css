@@ -440,7 +440,7 @@ ul, li {
 .banner-left {
   width: .2rem;
   height: .35rem;
-  background-image: url(../image/beijing.png);
+  background-image: url(../image/img5.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 999; }
@@ -448,7 +448,7 @@ ul, li {
 .banner-right {
   width: .2rem;
   height: .35rem;
-  background-image: url(../image/beijing.png);
+  background-image: url(../image/img6.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 999; }
